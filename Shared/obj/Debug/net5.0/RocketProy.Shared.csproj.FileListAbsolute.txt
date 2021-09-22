@@ -1,0 +1,12 @@
+/home/saint/Documentos/RocketProy/Shared/bin/Debug/net5.0/RocketProy.Shared.deps.json
+/home/saint/Documentos/RocketProy/Shared/bin/Debug/net5.0/RocketProy.Shared.dll
+/home/saint/Documentos/RocketProy/Shared/bin/Debug/net5.0/ref/RocketProy.Shared.dll
+/home/saint/Documentos/RocketProy/Shared/bin/Debug/net5.0/RocketProy.Shared.pdb
+/home/saint/Documentos/RocketProy/Shared/obj/Debug/net5.0/RocketProy.Shared.csprojAssemblyReference.cache
+/home/saint/Documentos/RocketProy/Shared/obj/Debug/net5.0/RocketProy.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/saint/Documentos/RocketProy/Shared/obj/Debug/net5.0/RocketProy.Shared.AssemblyInfoInputs.cache
+/home/saint/Documentos/RocketProy/Shared/obj/Debug/net5.0/RocketProy.Shared.AssemblyInfo.cs
+/home/saint/Documentos/RocketProy/Shared/obj/Debug/net5.0/RocketProy.Shared.csproj.CoreCompileInputs.cache
+/home/saint/Documentos/RocketProy/Shared/obj/Debug/net5.0/RocketProy.Shared.dll
+/home/saint/Documentos/RocketProy/Shared/obj/Debug/net5.0/ref/RocketProy.Shared.dll
+/home/saint/Documentos/RocketProy/Shared/obj/Debug/net5.0/RocketProy.Shared.pdb

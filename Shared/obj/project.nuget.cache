@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9mpC4VvvAkeNvpzZRVDx53aMH7MT55SPXRKrHw16QBFlZo8UmobBmPzBqpKtAuuijGG93XNv+RxZVDuZj5jSYg==",
+  "success": true,
+  "projectFilePath": "/home/saint/Documentos/RocketProy/Shared/RocketProy.Shared.csproj",
+  "expectedPackageFiles": [
+    "/home/saint/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
