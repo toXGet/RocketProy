@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace RocketProy.Client.Shared
+namespace RocketProy.Client.Pages
 {
     #line hidden
     using System;
@@ -89,7 +89,8 @@ using RocketProy.Shared.Entity;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/datatable")]
+    public partial class DataTable : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -97,15 +98,43 @@ using RocketProy.Shared.Entity;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 53 "/home/saint/Documentos/RocketProy/Client/Shared/NavMenu.razor"
-       
-    private bool collapseNavMenu = true;
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+#line 24 "/home/saint/Documentos/RocketProy/Client/Pages/DataTable.razor"
+      
+    private List<Rocket> GetRocket()
     {
-        collapseNavMenu = !collapseNavMenu;
+        return new List<Rocket>()
+        {
+            new Rocket()
+            {   
+                RocketName = "Antares", RocketDescription = "Sistema de lanzamiento desechable",
+                SpaceAgency = "OSC - NASA", RocketImage = "/Images/Cohete-Antares.jpg",
+                PublicationDate = new DateTime(2021, 09, 20)},
+            new Rocket()
+            {
+                RocketName = "Soyuz", RocketDescription = "La columna vertebral del programa espacial Ruso",
+                SpaceAgency = "Roscosmos", RocketImage = "/Images/Cohete-Soyuz.jpg",
+                PublicationDate = new DateTime(2021, 08, 18)},
+            new Rocket()
+            {
+                RocketName = "Hayabusa", RocketDescription = "Parte del desarollo espacial Japonés",
+                SpaceAgency = "Jaxa", RocketImage = "/Images/Cohete-Hayabusa.jpg",
+                PublicationDate = new DateTime(2021, 07, 15)},
+            new Rocket()
+            {
+                RocketName = "GSLV", RocketDescription = "Primer cohete del programa espacial Indú",
+                SpaceAgency = "Indian Space Research Organisation (ISRO)", RocketImage = "/Images/Cohete-GSLV.jpg",
+                PublicationDate = new DateTime(2021, 09, 15)},
+            new Rocket()
+            {
+                RocketName = "Vega", RocketDescription = "Producto de la Colaboración de varios paises de la U.E.",
+                SpaceAgency = "ESO", RocketImage = "/Images/Cohete-Vega.jpg",
+                PublicationDate = new DateTime(2021, 08, 20)},
+            new Rocket()
+            {
+                RocketName = "V2", RocketDescription = "Para muchos es el origen de los cohetes actuales",
+                SpaceAgency = "Alemania", RocketImage = "/Images/Cohete-V2.jpg",
+                PublicationDate = new DateTime(2021, 07, 20)}
+        };
     }
 
 #line default

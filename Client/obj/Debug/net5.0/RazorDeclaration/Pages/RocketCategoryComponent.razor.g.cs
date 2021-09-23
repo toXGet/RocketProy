@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace RocketProy.Client.Shared
+namespace RocketProy.Client.Pages
 {
     #line hidden
     using System;
@@ -89,7 +89,7 @@ using RocketProy.Shared.Entity;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class RocketCategoryComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -97,16 +97,9 @@ using RocketProy.Shared.Entity;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 53 "/home/saint/Documentos/RocketProy/Client/Shared/NavMenu.razor"
-       
-    private bool collapseNavMenu = true;
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+#line 29 "/home/saint/Documentos/RocketProy/Client/Pages/RocketCategoryComponent.razor"
+      
+    [Parameter] public List<Rocket> Rockets {get;set;}
 
 #line default
 #line hidden

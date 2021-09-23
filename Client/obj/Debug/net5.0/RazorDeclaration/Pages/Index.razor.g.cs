@@ -102,7 +102,7 @@ using RocketProy.Shared.Entity;
                                                                       
     public string title_card = "Nombre del Cohete";
     public string content_card = "Agencia Espacial del Cohete";
-    public string author_card = "Photo By: Black Photographer";
+    public string author_card = "Photo By: Dark Photographer";
 
 #line default
 #line hidden

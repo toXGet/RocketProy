@@ -638,3 +638,13 @@
 /home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/RazorDeclaration/Pages/ForRockets.razor.g.cs
 /home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/Razor/Pages/AsyncTask.razor.g.cs
 /home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/Razor/Pages/ForRockets.razor.g.cs
+/home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/RazorDeclaration/Pages/DataTable.razor.g.cs
+/home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/Razor/Pages/DataTable.razor.g.cs
+/home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/RazorDeclaration/Pages/ActividadVII.razor.g.cs
+/home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/RazorDeclaration/Pages/ActividadVIII.razor.g.cs
+/home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/RazorDeclaration/Pages/RocketCategoryComponent.razor.g.cs
+/home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/RazorDeclaration/Pages/RocketListComponent.razor.g.cs
+/home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/Razor/Pages/ActividadVII.razor.g.cs
+/home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/Razor/Pages/ActividadVIII.razor.g.cs
+/home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/Razor/Pages/RocketCategoryComponent.razor.g.cs
+/home/saint/Documentos/RocketProy/Client/obj/Debug/net5.0/Razor/Pages/RocketListComponent.razor.g.cs

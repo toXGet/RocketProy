@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace RocketProy.Client.Shared
+namespace RocketProy.Client.Pages
 {
     #line hidden
     using System;
@@ -89,7 +89,7 @@ using RocketProy.Shared.Entity;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class RocketListComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -97,16 +97,30 @@ using RocketProy.Shared.Entity;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 53 "/home/saint/Documentos/RocketProy/Client/Shared/NavMenu.razor"
+#line 30 "/home/saint/Documentos/RocketProy/Client/Pages/RocketListComponent.razor"
        
-    private bool collapseNavMenu = true;
+  public List<Rocket> Rockets;
+  private List<Rocket> GetRocket()
+  {
+    return new List<Rocket>(){
+      new Rocket(){RocketName = "Long March", RocketDescription = "Diseñado especialmente para cargas pesadas", RocketImage = "/Images/Cohete-LongMarch.jpg"},
+      new Rocket(){RocketName = "Proton M", RocketDescription = "Potente lanzador sin tripulación Ruso", RocketImage = "/Images/Cohete-Proton.jpg"},
+      new Rocket(){RocketName = "Hayabusa", RocketDescription = "Parte del desarollo espacial Japonés", RocketImage = "/Images/Cohete-Hayabusa.jpg"},
+    };
+  }
+  protected override async Task OnInitializedAsync()
+  {
+    
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 42 "/home/saint/Documentos/RocketProy/Client/Pages/RocketListComponent.razor"
+                                                                     
+    await Task.Delay(3000);
+    Rockets = GetRocket();
+  }
 
 #line default
 #line hidden
