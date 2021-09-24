@@ -1,13 +1,10 @@
-using System;
+using RocketProy.Shared.Entity;
 using System.Collections.Generic;
 
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Client.Services
+namespace RocketProy.Client.Services
 {
     public interface IService
     {
-        
+        List<Rocket> GetRocket();
     }
 }

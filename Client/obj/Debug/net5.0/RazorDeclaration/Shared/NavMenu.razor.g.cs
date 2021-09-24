@@ -89,6 +89,13 @@ using RocketProy.Shared.Entity;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "/home/saint/Documentos/RocketProy/Client/_Imports.razor"
+using RocketProy.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -97,7 +104,7 @@ using RocketProy.Shared.Entity;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 53 "/home/saint/Documentos/RocketProy/Client/Shared/NavMenu.razor"
+#line 58 "/home/saint/Documentos/RocketProy/Client/Shared/NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

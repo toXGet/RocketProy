@@ -96,8 +96,8 @@ using RocketProy.Client.Services;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/asynctask")]
-    public partial class AsyncTask : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/servicerockets")]
+    public partial class ActividadIXViernes : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -105,34 +105,17 @@ using RocketProy.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 31 "/home/saint/Documentos/RocketProy/Client/Pages/AsyncTask.razor"
-       
-  public List<Rocket> Rockets;
-  private List<Rocket> GetRocket()
-  {
-    return new List<Rocket>(){
-      new Rocket(){RocketName = "Long March", RocketDescription = "Diseñado especialmente para cargas pesadas", RocketImage = "/Images/Cohete-LongMarch.jpg"},
-      new Rocket(){RocketName = "Proton M", RocketDescription = "Potente lanzador sin tripulación Ruso", RocketImage = "/Images/Cohete-Proton.jpg"},
-      new Rocket(){RocketName = "Hayabusa", RocketDescription = "Parte del desarollo espacial Japonés", RocketImage = "/Images/Cohete-Hayabusa.jpg"},
-    };
-  }
-  protected override async Task OnInitializedAsync()
-  {
-    
+#line 6 "/home/saint/Documentos/RocketProy/Client/Pages/ActividadIXViernes.razor"
+      
+    private List<Rocket> Rockets;
+    protected override void OnInitialized(){
+        Rockets = rocket.GetRocket();
+    }    
 
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 43 "/home/saint/Documentos/RocketProy/Client/Pages/AsyncTask.razor"
-                                                                     
-    await Task.Delay(3000);
-    Rockets = GetRocket();
-  }
-
-#line default
-#line hidden
-#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IService rocket { get; set; }
     }
 }
 #pragma warning restore 1591

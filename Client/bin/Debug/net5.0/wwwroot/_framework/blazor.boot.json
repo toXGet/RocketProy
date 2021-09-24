@@ -196,12 +196,12 @@
       "netstandard.dll": "sha256-vJpyW6cE\/+ewo5rVB5JUu9x2f8aLnqoIazac8ef5FzQ=",
       "System.Private.CoreLib.dll": "sha256-CvQTDivHJZAtRXyCbDa5f5+okJt39WRFrZSmXTMSau0=",
       "RocketProy.Shared.dll": "sha256-NmuqaBJum1Cydpl3DeSOnbCBa9zPkpCfqFDXNnVCFRE=",
-      "RocketProy.Client.dll": "sha256-Ltf8oWAxrRa6wTOkSNma9rdeMdGeeVKdoT3YZ7sIF58="
+      "RocketProy.Client.dll": "sha256-CaabLrizWHDjv7tH0G2ScArlI9i7RmjixuEx5wCqX8E="
     },
     "lazyAssembly": null,
     "pdb": {
       "RocketProy.Shared.pdb": "sha256-kecB\/\/ALO+DlLrGxiB\/DZlYISpr2hb6K3dnVswQZIxc=",
-      "RocketProy.Client.pdb": "sha256-Gcm8kfwtsB0L9FFNuwMoS6YPlvUZ+01eQkDqA5NyKYM="
+      "RocketProy.Client.pdb": "sha256-D4SnjNzsLpg03Vm2rR7Luo2pOnGLMNJTdq065zvmmbc="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-2OdnPsDgJyoSaSlvebGMRd2MxC+4UIqparqVrQZAFDE=",

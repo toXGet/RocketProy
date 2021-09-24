@@ -86,6 +86,13 @@ using RocketProy.Shared.Entity;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "/home/saint/Documentos/RocketProy/Client/_Imports.razor"
+using RocketProy.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/asynctask")]
     public partial class AsyncTask : Microsoft.AspNetCore.Components.ComponentBase
     {
